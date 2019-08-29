@@ -26,7 +26,6 @@ namespace Appv2
         int pos2X = 0;
         int posY = 0;
         PointF ulCorner = new PointF(550.0F, 25.0F);
-        //private static string zmienna;
         FileVideoSource videoSource = new FileVideoSource();//@"C:\Users\Zosienka\Desktop\semestr6\GiM\GiM-master\film1.avi");
         
 
@@ -43,7 +42,7 @@ namespace Appv2
                 videoSource.Start();
                 videoSourcePlayer1.VideoSource = videoSource;
             }
-            catch (Exception) { MessageBox.Show("Nie załadowano filmu."); }
+            catch (FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
 
         //ładowanie
@@ -67,7 +66,12 @@ namespace Appv2
             }
             catch (FileLoadException)
             {
-
+                Console.Write("Nie załadowano pliku.");
+                MessageBox.Show("Nie załadowano filmu.");
+            }
+            catch (FormatException)
+            {
+                MessageBox.Show("Nie załadowano filmu.");
             }
             
         }
@@ -95,6 +99,7 @@ namespace Appv2
             graphics.DrawString(textBox1.Text, f, alphaBrush, posX, posY);//napis
         }
 
+        //latanie tekstu
         private void timer1_Tick(object sender, EventArgs e)
         {
             Bitmap bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height, PixelFormat.Format32bppArgb);
@@ -168,8 +173,12 @@ namespace Appv2
                     zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/czerwony.png");
                 }
             }
-            catch (Exception) { }
+            catch (FileNotFoundException) {
+                MessageBox.Show("Nie załadowano filmu.");
+            }
         }
+
+        //dodanie znaku wodnego
         public void button2_Click(object sender, EventArgs e)
         {
             try
@@ -177,15 +186,21 @@ namespace Appv2
                 videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame);
                 videoSourcePlayer1.VideoSource = videoSource;
             }
-            catch (Exception) { MessageBox.Show("Nie załadowano filmu."); }
+            catch (FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
 
+        //usuniecie znaku wodnego
         private void button3_Click(object sender, EventArgs e)
         {
-            videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame);
-            videoSourcePlayer1.VideoSource = videoSource;
+            try
+            {
+                videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame);
+                videoSourcePlayer1.VideoSource = videoSource;
+            }
+            catch (FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
 
+        //stop filmu
         private void button4_Click(object sender, EventArgs e)
         {
             try
@@ -193,19 +208,29 @@ namespace Appv2
                 videoSource.Stop();
                 videoSourcePlayer1.VideoSource = videoSource;
             }
-            catch (Exception) { MessageBox.Show("Nie załadowano filmu."); }
+            catch (FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
 
+        //dodanie napisu
         private void button6_Click(object sender, EventArgs e)
         {
-            videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame2);
-            videoSourcePlayer1.VideoSource = videoSource;
+            try
+            {
+                videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame2);
+                videoSourcePlayer1.VideoSource = videoSource;
+            }
+            catch (FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
 
+        //usuniecie napisu
         private void button7_Click(object sender, EventArgs e)
         {
-            videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame2);
-            videoSourcePlayer1.VideoSource = videoSource;
+            try
+            {
+                videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame2);
+                videoSourcePlayer1.VideoSource = videoSource;
+            }
+            catch(FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
     }
 
