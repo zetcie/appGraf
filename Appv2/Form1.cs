@@ -16,20 +16,20 @@ using AForge.Video.FFMPEG;
 
 namespace Appv2
 {
-    public partial class Form1 : Form
+    public partial class form1 : Form
     {
 
         string fileContent = string.Empty;
         string filePath = string.Empty;
         Image zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/zielony.png");
         int posX = 0;
-        int pos2X = 0;
-        int posY = 0;
+        int posY = -10;
+        int pos2Y = 413;
         PointF ulCorner = new PointF(550.0F, 25.0F);
         FileVideoSource videoSource = new FileVideoSource();//@"C:\Users\Zosienka\Desktop\semestr6\GiM\GiM-master\film1.avi");
         
 
-        public Form1()
+        public form1()
         {
             InitializeComponent();
         }
@@ -92,9 +92,9 @@ namespace Appv2
         {
             Bitmap bitmap = eventArgs.Frame;
             Graphics graphics = Graphics.FromImage(bitmap);
-            SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 0, 0));
-            Font f = new Font(FontFamily.GenericSerif, 50.0f, FontStyle.Bold);
-            graphics.DrawString(textBox1.Text, f, alphaBrush, posX, posY);//napis
+            SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 255, 255));
+            Font f = new Font(FontFamily.GenericSerif, 40.0f, FontStyle.Bold);
+            graphics.DrawString(textBox1.Text, f, alphaBrush, posX, pos2Y);//napis
         }
 
         //latanie tekstu
@@ -103,18 +103,17 @@ namespace Appv2
             Bitmap bmp = new Bitmap(pictureBox1.Width, pictureBox1.Height, PixelFormat.Format32bppArgb);
             Graphics graphics = Graphics.FromImage(bmp);
 
-            Rectangle rect = new Rectangle(pictureBox1.Width, pictureBox1.Height, pictureBox1.Width, pictureBox1.Height);
-            Font f = new Font(FontFamily.GenericSerif, 200.0f, FontStyle.Bold);
+            //Rectangle rect = new Rectangle(pictureBox1.Width, pictureBox1.Height, pictureBox1.Width, pictureBox1.Height);
+            Font f = new Font(FontFamily.GenericSerif, 30.0f, FontStyle.Bold);
 
-            graphics.FillRectangle(Brushes.Black, rect);
+            //graphics.FillRectangle(Brushes.Black, rect);
 
-            SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 0, 0));
+            SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(90, 255, 0, 0));
 
-            graphics.DrawString("Ala ma kota", f, alphaBrush, posX, posY);
-            //graphics.DrawString(textBox1.Text, f, alphaBrush, posX, posY);
+            //graphics.DrawString("Ala ma kota", f, alphaBrush, posX, posY);
+            graphics.DrawString(textBox1.Text, f, alphaBrush, posX, posY);
 
             posX += 20;
-            pos2X -= 20;
 
 
             if (posX > this.pictureBox1.Width)
@@ -224,7 +223,7 @@ namespace Appv2
         {
             try
             {
-                videoSource.NewFrame += new NewFrameEventHandler(timer1_Tick);
+                videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame2);
                 videoSourcePlayer1.VideoSource = videoSource;
             }
             catch(FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }

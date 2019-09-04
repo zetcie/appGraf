@@ -47,10 +47,10 @@ C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\bin\Debug\AForge.Vid
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\bin\Debug\AForge.xml
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\bin\Debug\AForge.Math.xml
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.csprojAssemblyReference.cache
-C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.Form1.resources
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.Properties.Resources.resources
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.csproj.GenerateResource.cache
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.csproj.CoreCompileInputs.cache
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.csproj.CopyComplete
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.exe
 C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.pdb
+C:\Users\Zosienka\Desktop\semestr6\GiM\appGraf-master\Appv2\obj\Debug\Appv2.form1.resources
