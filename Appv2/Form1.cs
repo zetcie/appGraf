@@ -52,7 +52,10 @@ namespace Appv2
             {
                 OpenFileDialog openFileDialog = new OpenFileDialog();
                 openFileDialog.InitialDirectory = "c:\\";
-                openFileDialog.Filter = "avi files (*.avi)|*.avi|All files (*.*)|*.*";
+                openFileDialog.CheckFileExists = true;
+                openFileDialog.CheckPathExists = true;
+                openFileDialog.DefaultExt = "avi";
+                openFileDialog.Filter = "avi files (*.avi)|*.avi";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
 
@@ -82,11 +85,7 @@ namespace Appv2
             Bitmap bitmap = eventArgs.Frame;
             Graphics graphics = Graphics.FromImage(bitmap);
             graphics.DrawImage(SetImageOpacity(zmienna, 0.5f), ulCorner); //znak wodny
-
-            /*SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 0, 0));
-            Font f = new Font(FontFamily.GenericSerif, 30.0f, FontStyle.Bold);
-            
-            graphics.DrawString("chuj", f, alphaBrush, 50, 50);//napis*/
+           
         }
 
         public void video_NewFrame2(object sender, NewFrameEventArgs eventArgs)
@@ -95,7 +94,6 @@ namespace Appv2
             Graphics graphics = Graphics.FromImage(bitmap);
             SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 0, 0));
             Font f = new Font(FontFamily.GenericSerif, 50.0f, FontStyle.Bold);
-
             graphics.DrawString(textBox1.Text, f, alphaBrush, posX, posY);//napis
         }
 
@@ -125,7 +123,6 @@ namespace Appv2
             }
 
             this.pictureBox1.Image = bmp;
-
         }
 
         public Image SetImageOpacity(Image image, float opacity)
@@ -227,7 +224,7 @@ namespace Appv2
         {
             try
             {
-                videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame2);
+                videoSource.NewFrame += new NewFrameEventHandler(timer1_Tick);
                 videoSourcePlayer1.VideoSource = videoSource;
             }
             catch(FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }

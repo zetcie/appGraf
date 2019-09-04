@@ -119,14 +119,14 @@
   </resheader>
   <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
   <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 33</value>
+    <value>1076, 41</value>
   </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 23</value>
+    <value>189, 28</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="button1.TabIndex" type="System.Int32, mscorlib">
@@ -160,13 +160,13 @@
     <value>Dla pełnoletnich</value>
   </data>
   <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 89</value>
+    <value>1076, 110</value>
   </data>
   <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 21</value>
+    <value>188, 24</value>
   </data>
   <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -184,10 +184,13 @@
     <value>9</value>
   </data>
   <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>806, 115</value>
+    <value>1075, 142</value>
+  </data>
+  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 23</value>
+    <value>189, 28</value>
   </data>
   <data name="button2.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -208,10 +211,13 @@
     <value>7</value>
   </data>
   <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 144</value>
+    <value>1076, 177</value>
+  </data>
+  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 23</value>
+    <value>189, 28</value>
   </data>
   <data name="button3.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -232,10 +238,13 @@
     <value>5</value>
   </data>
   <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>806, 61</value>
+    <value>1075, 75</value>
+  </data>
+  <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 23</value>
+    <value>189, 28</value>
   </data>
   <data name="button4.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -256,10 +265,13 @@
     <value>8</value>
   </data>
   <data name="zaladujFilm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>806, 5</value>
+    <value>1075, 6</value>
+  </data>
+  <data name="zaladujFilm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="zaladujFilm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 23</value>
+    <value>189, 28</value>
   </data>
   <data name="zaladujFilm.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -280,13 +292,13 @@
     <value>6</value>
   </data>
   <data name="videoSourcePlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>11, 11</value>
+    <value>15, 14</value>
   </data>
   <data name="videoSourcePlayer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="videoSourcePlayer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>790, 368</value>
+    <value>1053, 453</value>
   </data>
   <data name="videoSourcePlayer1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -307,10 +319,13 @@
     <value>4</value>
   </data>
   <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 173</value>
+    <value>1076, 213</value>
+  </data>
+  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 20</value>
+    <value>187, 22</value>
   </data>
   <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
     <value>12</value>
@@ -328,10 +343,13 @@
     <value>3</value>
   </data>
   <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>807, 200</value>
+    <value>1076, 246</value>
+  </data>
+  <data name="button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>141, 23</value>
+    <value>188, 28</value>
   </data>
   <data name="button6.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -352,10 +370,13 @@
     <value>2</value>
   </data>
   <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>806, 230</value>
+    <value>1075, 283</value>
+  </data>
+  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>142, 23</value>
+    <value>189, 28</value>
   </data>
   <data name="button7.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -376,13 +397,16 @@
     <value>1</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
-    <value>15, 15</value>
+    <value>81, 17</value>
   </metadata>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>13, 385</value>
+    <value>17, 474</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>788, 50</value>
+    <value>1051, 62</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
     <value>15</value>
@@ -409,22 +433,22 @@
     <value>37</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>6, 13</value>
+    <value>8, 16</value>
   </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>960, 438</value>
+    <value>1277, 529</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>2, 2, 2, 2</value>
+    <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>976, 477</value>
+    <value>1295, 576</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>976, 477</value>
+    <value>1295, 576</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>Form1</value>
