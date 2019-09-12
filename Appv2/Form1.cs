@@ -21,14 +21,14 @@ namespace Appv2
 
         string fileContent = string.Empty;
         string filePath = string.Empty;
-        Image zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/zielony.png");
+        Image zmienna = new Bitmap("C:/Users/Nati/Desktop/Nowy folder/appGraf/znaki/zielony.png");
         int posX = 0;
         int posY = -10;
         int pos2Y = 413;
-        PointF ulCorner = new PointF(350.0F, 55.0F);
+        PointF ulCorner = new PointF(10.0F, 10.0F);
         FileVideoSource videoSource = new FileVideoSource();//@"C:\Users\Zosienka\Desktop\semestr6\GiM\GiM-master\film1.avi");
 
-        string text = System.IO.File.ReadAllText(@"C:\Users\Zosienka\Desktop\zosia.txt");
+        //string text = System.IO.File.ReadAllText(@"C:\Users\Zosienka\Desktop\zosia.txt");
 
         public form1()
         {
@@ -162,19 +162,19 @@ namespace Appv2
 
                 if (selectedIndex.Equals(0))
                 {
-                    zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/zielony.png");
+                    zmienna = new Bitmap("C:/Users/Nati/Desktop/Nowy folder/appGraf/znaki/zielony.png");
                 }
                 else if (selectedIndex.Equals(1))
                 {
-                    zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/zolty.png");
+                    zmienna = new Bitmap("C:/Users/Nati/Desktop/Nowy folder/appGraf/znaki/zolty.png");
                 }
                 else if (selectedIndex.Equals(2))
                 {
-                    zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/pomaranczowy.png");
+                    zmienna = new Bitmap("C:/Users/Nati/Desktop/Nowy folder/appGraf/znaki/pomaranczowy.png");
                 }
                 else if (selectedIndex.Equals(3))
                 {
-                    zmienna = new Bitmap("C:/Users/Zosienka/Desktop/semestr6/GiM/znaki/czerwony.png");
+                    zmienna = new Bitmap("C:/Users/Nati/Desktop/Nowy folder/appGraf/znaki/czerwony.png");
                 }
             }
             catch (FileNotFoundException) {
