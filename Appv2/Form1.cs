@@ -25,9 +25,10 @@ namespace Appv2
         int posX = 0;
         int posY = -10;
         int pos2Y = 413;
-        PointF ulCorner = new PointF(550.0F, 25.0F);
+        PointF ulCorner = new PointF(350.0F, 55.0F);
         FileVideoSource videoSource = new FileVideoSource();//@"C:\Users\Zosienka\Desktop\semestr6\GiM\GiM-master\film1.avi");
-        
+
+        string text = System.IO.File.ReadAllText(@"C:\Users\Zosienka\Desktop\zosia.txt");
 
         public form1()
         {
@@ -64,6 +65,8 @@ namespace Appv2
                     videoSource = new FileVideoSource(openFileDialog.FileName);
                     videoSource.Start();
                     videoSourcePlayer1.VideoSource = videoSource;
+                    videoSourcePlayer1.Width = 780;//skalowanie
+                    videoSourcePlayer1.Height = 370;
 
                 }
             }
@@ -82,6 +85,7 @@ namespace Appv2
 
         public void video_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
+            //PointF ulCorner = new PointF(250, videoSourcePlayer1.Height-350);
             Bitmap bitmap = eventArgs.Frame;
             Graphics graphics = Graphics.FromImage(bitmap);
             graphics.DrawImage(SetImageOpacity(zmienna, 0.5f), ulCorner); //znak wodny
@@ -94,7 +98,11 @@ namespace Appv2
             Graphics graphics = Graphics.FromImage(bitmap);
             SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 255, 255));
             Font f = new Font(FontFamily.GenericSerif, 40.0f, FontStyle.Bold);
+            //graphics.DrawString(text, f, alphaBrush, posX, pos2Y);//napis z pliku
+
             graphics.DrawString(textBox1.Text, f, alphaBrush, posX, pos2Y);//napis
+
+
         }
 
         //latanie tekstu
@@ -228,6 +236,7 @@ namespace Appv2
             }
             catch(FileNotFoundException) { MessageBox.Show("Nie załadowano filmu."); }
         }
+        
     }
 
 }
