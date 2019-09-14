@@ -117,188 +117,239 @@
   <resheader name="writer">
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
-  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
-  <data name="button1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1076, 41</value>
-  </data>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="playVideo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="playVideo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="playVideo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="playVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 44</value>
+  </data>
+  <data name="playVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="button1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 28</value>
+  <data name="playVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 38</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="button1.TabIndex" type="System.Int32, mscorlib">
+  <data name="playVideo.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
-  <data name="button1.Text" xml:space="preserve">
-    <value>Play</value>
+  <data name="playVideo.Text" xml:space="preserve">
+    <value>Start</value>
   </data>
-  <data name="&gt;&gt;button1.Name" xml:space="preserve">
-    <value>button1</value>
+  <data name="&gt;&gt;playVideo.Name" xml:space="preserve">
+    <value>playVideo</value>
   </data>
-  <data name="&gt;&gt;button1.Type" xml:space="preserve">
+  <data name="&gt;&gt;playVideo.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;playVideo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
   </data>
-  <data name="&gt;&gt;button1.ZOrder" xml:space="preserve">
-    <value>10</value>
+  <data name="&gt;&gt;playVideo.ZOrder" xml:space="preserve">
+    <value>4</value>
   </data>
-  <data name="comboBox1.Items" xml:space="preserve">
+  <data name="listOfSigns.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="listOfSigns.Items" xml:space="preserve">
     <value>Bez ograniczeń wiekowych</value>
   </data>
-  <data name="comboBox1.Items1" xml:space="preserve">
+  <data name="listOfSigns.Items1" xml:space="preserve">
     <value>Dla małoletnich od12 lat</value>
   </data>
-  <data name="comboBox1.Items2" xml:space="preserve">
+  <data name="listOfSigns.Items2" xml:space="preserve">
     <value>Dla małoletnich od 16 lat</value>
   </data>
-  <data name="comboBox1.Items3" xml:space="preserve">
+  <data name="listOfSigns.Items3" xml:space="preserve">
     <value>Dla pełnoletnich</value>
   </data>
-  <data name="comboBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1076, 110</value>
+  <data name="listOfSigns.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 128</value>
   </data>
-  <data name="comboBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="listOfSigns.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
-  <data name="comboBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 24</value>
+  <data name="listOfSigns.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 24</value>
   </data>
-  <data name="comboBox1.TabIndex" type="System.Int32, mscorlib">
+  <data name="listOfSigns.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Name" xml:space="preserve">
-    <value>comboBox1</value>
+  <data name="&gt;&gt;listOfSigns.Name" xml:space="preserve">
+    <value>listOfSigns</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Type" xml:space="preserve">
+  <data name="&gt;&gt;listOfSigns.Type" xml:space="preserve">
     <value>System.Windows.Forms.ComboBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;comboBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;listOfSigns.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
   </data>
-  <data name="&gt;&gt;comboBox1.ZOrder" xml:space="preserve">
-    <value>9</value>
-  </data>
-  <data name="button2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1075, 142</value>
-  </data>
-  <data name="button2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="button2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 28</value>
-  </data>
-  <data name="button2.TabIndex" type="System.Int32, mscorlib">
-    <value>8</value>
-  </data>
-  <data name="button2.Text" xml:space="preserve">
-    <value>Dodaj znak wodny</value>
-  </data>
-  <data name="&gt;&gt;button2.Name" xml:space="preserve">
-    <value>button2</value>
-  </data>
-  <data name="&gt;&gt;button2.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button2.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button2.ZOrder" xml:space="preserve">
-    <value>7</value>
-  </data>
-  <data name="button3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1076, 177</value>
-  </data>
-  <data name="button3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="button3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 28</value>
-  </data>
-  <data name="button3.TabIndex" type="System.Int32, mscorlib">
-    <value>9</value>
-  </data>
-  <data name="button3.Text" xml:space="preserve">
-    <value>Usuń znak wodny</value>
-  </data>
-  <data name="&gt;&gt;button3.Name" xml:space="preserve">
-    <value>button3</value>
-  </data>
-  <data name="&gt;&gt;button3.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button3.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button3.ZOrder" xml:space="preserve">
-    <value>5</value>
-  </data>
-  <data name="button4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1075, 75</value>
-  </data>
-  <data name="button4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="button4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 28</value>
-  </data>
-  <data name="button4.TabIndex" type="System.Int32, mscorlib">
-    <value>10</value>
-  </data>
-  <data name="button4.Text" xml:space="preserve">
-    <value>Stop</value>
-  </data>
-  <data name="&gt;&gt;button4.Name" xml:space="preserve">
-    <value>button4</value>
-  </data>
-  <data name="&gt;&gt;button4.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;button4.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;button4.ZOrder" xml:space="preserve">
-    <value>8</value>
-  </data>
-  <data name="zaladujFilm.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1075, 6</value>
-  </data>
-  <data name="zaladujFilm.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="zaladujFilm.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 28</value>
-  </data>
-  <data name="zaladujFilm.TabIndex" type="System.Int32, mscorlib">
-    <value>11</value>
-  </data>
-  <data name="zaladujFilm.Text" xml:space="preserve">
-    <value>Załaduj film</value>
-  </data>
-  <data name="&gt;&gt;zaladujFilm.Name" xml:space="preserve">
-    <value>zaladujFilm</value>
-  </data>
-  <data name="&gt;&gt;zaladujFilm.Type" xml:space="preserve">
-    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;zaladujFilm.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;zaladujFilm.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;listOfSigns.ZOrder" xml:space="preserve">
     <value>6</value>
   </data>
+  <data name="addSign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="addSign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="addSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 158</value>
+  </data>
+  <data name="addSign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="addSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="addSign.TabIndex" type="System.Int32, mscorlib">
+    <value>8</value>
+  </data>
+  <data name="addSign.Text" xml:space="preserve">
+    <value>Dodaj znak wodny</value>
+  </data>
+  <data name="&gt;&gt;addSign.Name" xml:space="preserve">
+    <value>addSign</value>
+  </data>
+  <data name="&gt;&gt;addSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;addSign.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;addSign.ZOrder" xml:space="preserve">
+    <value>8</value>
+  </data>
+  <data name="deleteSign.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="deleteSign.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="deleteSign.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteSign.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 200</value>
+  </data>
+  <data name="deleteSign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="deleteSign.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="deleteSign.TabIndex" type="System.Int32, mscorlib">
+    <value>9</value>
+  </data>
+  <data name="deleteSign.Text" xml:space="preserve">
+    <value>Usuń znak wodny</value>
+  </data>
+  <data name="&gt;&gt;deleteSign.Name" xml:space="preserve">
+    <value>deleteSign</value>
+  </data>
+  <data name="&gt;&gt;deleteSign.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;deleteSign.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;deleteSign.ZOrder" xml:space="preserve">
+    <value>7</value>
+  </data>
+  <data name="stopVideo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="stopVideo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="stopVideo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="stopVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 88</value>
+  </data>
+  <data name="stopVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="stopVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="stopVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="stopVideo.Text" xml:space="preserve">
+    <value>Stop</value>
+  </data>
+  <data name="&gt;&gt;stopVideo.Name" xml:space="preserve">
+    <value>stopVideo</value>
+  </data>
+  <data name="&gt;&gt;stopVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;stopVideo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;stopVideo.ZOrder" xml:space="preserve">
+    <value>5</value>
+  </data>
+  <data name="loadVideo.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="loadVideo.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="loadVideo.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="loadVideo.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 4</value>
+  </data>
+  <data name="loadVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>4, 4, 4, 4</value>
+  </data>
+  <data name="loadVideo.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
+  </data>
+  <data name="loadVideo.TabIndex" type="System.Int32, mscorlib">
+    <value>11</value>
+  </data>
+  <data name="loadVideo.Text" xml:space="preserve">
+    <value>Załaduj film</value>
+  </data>
+  <data name="&gt;&gt;loadVideo.Name" xml:space="preserve">
+    <value>loadVideo</value>
+  </data>
+  <data name="&gt;&gt;loadVideo.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadVideo.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;loadVideo.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="videoSourcePlayer1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
   <data name="videoSourcePlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>15, 14</value>
+    <value>23, 2</value>
   </data>
   <data name="videoSourcePlayer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>3, 2, 3, 2</value>
   </data>
   <data name="videoSourcePlayer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1053, 453</value>
+    <value>989, 405</value>
   </data>
   <data name="videoSourcePlayer1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -313,103 +364,250 @@
     <value>AForge.Controls.VideoSourcePlayer, AForge.Controls, Version=2.2.5.0, Culture=neutral, PublicKeyToken=a8ac264d1dc6b9d9</value>
   </data>
   <data name="&gt;&gt;videoSourcePlayer1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tableLayoutPanel4</value>
   </data>
   <data name="&gt;&gt;videoSourcePlayer1.ZOrder" xml:space="preserve">
-    <value>4</value>
+    <value>0</value>
   </data>
-  <data name="textBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1076, 213</value>
+  <data name="addText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="textBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="addText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="addText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="addText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 284</value>
+  </data>
+  <data name="addText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="textBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>187, 22</value>
+  <data name="addText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
   </data>
-  <data name="textBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>12</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Name" xml:space="preserve">
-    <value>textBox1</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Type" xml:space="preserve">
-    <value>System.Windows.Forms.TextBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
-  </data>
-  <data name="&gt;&gt;textBox1.Parent" xml:space="preserve">
-    <value>$this</value>
-  </data>
-  <data name="&gt;&gt;textBox1.ZOrder" xml:space="preserve">
-    <value>3</value>
-  </data>
-  <data name="button6.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1074, 243</value>
-  </data>
-  <data name="button6.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
-  </data>
-  <data name="button6.Size" type="System.Drawing.Size, System.Drawing">
-    <value>188, 28</value>
-  </data>
-  <data name="button6.TabIndex" type="System.Int32, mscorlib">
+  <data name="addText.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
   </data>
-  <data name="button6.Text" xml:space="preserve">
+  <data name="addText.Text" xml:space="preserve">
     <value>Dodaj napis</value>
   </data>
-  <data name="&gt;&gt;button6.Name" xml:space="preserve">
-    <value>button6</value>
+  <data name="&gt;&gt;addText.Name" xml:space="preserve">
+    <value>addText</value>
   </data>
-  <data name="&gt;&gt;button6.Type" xml:space="preserve">
+  <data name="&gt;&gt;addText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button6.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;addText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
   </data>
-  <data name="&gt;&gt;button6.ZOrder" xml:space="preserve">
-    <value>2</value>
+  <data name="&gt;&gt;addText.ZOrder" xml:space="preserve">
+    <value>3</value>
   </data>
-  <data name="button7.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1073, 279</value>
+  <data name="deleteText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="button7.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+  <data name="deleteText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="deleteText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="deleteText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>4, 326</value>
+  </data>
+  <data name="deleteText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
     <value>4, 4, 4, 4</value>
   </data>
-  <data name="button7.Size" type="System.Drawing.Size, System.Drawing">
-    <value>189, 28</value>
+  <data name="deleteText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>217, 34</value>
   </data>
-  <data name="button7.TabIndex" type="System.Int32, mscorlib">
+  <data name="deleteText.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
   </data>
-  <data name="button7.Text" xml:space="preserve">
+  <data name="deleteText.Text" xml:space="preserve">
     <value>Usuń napis</value>
   </data>
-  <data name="&gt;&gt;button7.Name" xml:space="preserve">
-    <value>button7</value>
+  <data name="&gt;&gt;deleteText.Name" xml:space="preserve">
+    <value>deleteText</value>
   </data>
-  <data name="&gt;&gt;button7.Type" xml:space="preserve">
+  <data name="&gt;&gt;deleteText.Type" xml:space="preserve">
     <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
-  <data name="&gt;&gt;button7.Parent" xml:space="preserve">
-    <value>$this</value>
+  <data name="&gt;&gt;deleteText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
   </data>
-  <data name="&gt;&gt;button7.ZOrder" xml:space="preserve">
+  <data name="&gt;&gt;deleteText.ZOrder" xml:space="preserve">
     <value>1</value>
   </data>
   <metadata name="timer1.TrayLocation" type="System.Drawing.Point, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a">
     <value>81, 17</value>
   </metadata>
-  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>17, 474</value>
+  <data name="loadText.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
   </data>
-  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+  <data name="loadText.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Segoe UI, 12pt, style=Bold</value>
+  </data>
+  <data name="loadText.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="loadText.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 241</value>
+  </data>
+  <data name="loadText.Size" type="System.Drawing.Size, System.Drawing">
+    <value>219, 36</value>
+  </data>
+  <data name="loadText.TabIndex" type="System.Int32, mscorlib">
+    <value>16</value>
+  </data>
+  <data name="loadText.Text" xml:space="preserve">
+    <value>Załaduj napisy</value>
+  </data>
+  <data name="&gt;&gt;loadText.Name" xml:space="preserve">
+    <value>loadText</value>
+  </data>
+  <data name="&gt;&gt;loadText.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Button, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;loadText.Parent" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;loadText.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel1.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel2.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel2.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
+    <value>1024, 105</value>
+  </data>
+  <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
+    <value>10</value>
+  </data>
+  <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
+    <value>250, 409</value>
+  </data>
+  <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Name" xml:space="preserve">
+    <value>tableLayoutPanel2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel2.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="tableLayoutPanel2.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="loadVideo" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="deleteText" Row="8" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="loadText" Row="6" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="addText" Row="7" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="playVideo" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="stopVideo" Row="2" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="listOfSigns" Row="3" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="deleteSign" Row="5" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="addSign" Row="4" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,90,Percent,10" /&gt;&lt;Rows Styles="Percent,10,34138,Percent,10,34137,Percent,10,34137,Percent,6,927683,Percent,10,34137,Percent,10,34137,Percent,10,34137,Percent,10,34137,Percent,10,34137,Percent,10,34137" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel3.ColumnCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label1.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tempus Sans ITC, 36pt, style=Bold</value>
+  </data>
+  <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 0</value>
+  </data>
+  <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>14, 96</value>
+  </data>
+  <data name="label1.TabIndex" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="label1.Text" xml:space="preserve">
+    <value>Edytor wideo</value>
+  </data>
+  <data name="label1.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label1.Name" xml:space="preserve">
+    <value>label1</value>
+  </data>
+  <data name="&gt;&gt;label1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label1.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;label1.ZOrder" xml:space="preserve">
+    <value>0</value>
+  </data>
+  <data name="label3.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
+  <data name="label3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
+    <value>Tempus Sans ITC, 36pt, style=Bold</value>
+  </data>
+  <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
+    <value>NoControl</value>
+  </data>
+  <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>175, 0</value>
+  </data>
+  <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>837, 96</value>
+  </data>
+  <data name="label3.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="label3.Text" xml:space="preserve">
+    <value>Edytor wideo</value>
+  </data>
+  <data name="label3.TextAlign" type="System.Drawing.ContentAlignment, System.Drawing">
+    <value>MiddleLeft</value>
+  </data>
+  <data name="&gt;&gt;label3.Name" xml:space="preserve">
+    <value>label3</value>
+  </data>
+  <data name="&gt;&gt;label3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.Label, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;label3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;label3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="pictureBox1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>23, 3</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1051, 42</value>
+    <value>146, 90</value>
+  </data>
+  <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
+    <value>Zoom</value>
   </data>
   <data name="pictureBox1.TabIndex" type="System.Int32, mscorlib">
-    <value>15</value>
+    <value>0</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Name" xml:space="preserve">
     <value>pictureBox1</value>
@@ -418,10 +616,103 @@
     <value>System.Windows.Forms.PictureBox, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </data>
   <data name="&gt;&gt;pictureBox1.Parent" xml:space="preserve">
-    <value>$this</value>
+    <value>tableLayoutPanel3</value>
   </data>
   <data name="&gt;&gt;pictureBox1.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel3.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 3</value>
+  </data>
+  <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 96</value>
+  </data>
+  <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Name" xml:space="preserve">
+    <value>tableLayoutPanel3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel3.ZOrder" xml:space="preserve">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel3.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="label1" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="label3" Row="0" RowSpan="1" Column="2" ColumnSpan="1" /&gt;&lt;Control Name="pictureBox1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,2,Percent,15,Percent,83" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel4.ColumnCount" type="System.Int32, mscorlib">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel4.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
+    <value>3, 105</value>
+  </data>
+  <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
+    <value>1</value>
+  </data>
+  <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1015, 409</value>
+  </data>
+  <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Name" xml:space="preserve">
+    <value>tableLayoutPanel4</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.Parent" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel4.ZOrder" xml:space="preserve">
+    <value>2</value>
+  </data>
+  <data name="tableLayoutPanel4.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="videoSourcePlayer1" Row="0" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,2,Percent,98" /&gt;&lt;Rows Styles="Percent,100" /&gt;&lt;/TableLayoutSettings&gt;</value>
+  </data>
+  <data name="tableLayoutPanel1.Dock" type="System.Windows.Forms.DockStyle, System.Windows.Forms">
+    <value>Fill</value>
+  </data>
+  <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
+    <value>0, 0</value>
+  </data>
+  <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
+    <value>3</value>
+  </data>
+  <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
+    <value>1277, 529</value>
+  </data>
+  <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
+    <value>17</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Name" xml:space="preserve">
+    <value>tableLayoutPanel1</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Type" xml:space="preserve">
+    <value>System.Windows.Forms.TableLayoutPanel, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.Parent" xml:space="preserve">
+    <value>$this</value>
+  </data>
+  <data name="&gt;&gt;tableLayoutPanel1.ZOrder" xml:space="preserve">
     <value>0</value>
+  </data>
+  <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,80,Percent,20" /&gt;&lt;Rows Styles="Percent,19,31627,Percent,78,48601,Percent,2,197725,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -435,6 +726,9 @@
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
     <value>8, 16</value>
   </data>
+  <data name="$this.AutoSize" type="System.Boolean, mscorlib">
+    <value>True</value>
+  </data>
   <data name="$this.AutoSizeMode" type="System.Windows.Forms.AutoSizeMode, System.Windows.Forms">
     <value>GrowAndShrink</value>
   </data>
@@ -445,7 +739,7 @@
     <value>3, 2, 3, 2</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1295, 576</value>
+    <value>2295, 1076</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
     <value>1295, 576</value>

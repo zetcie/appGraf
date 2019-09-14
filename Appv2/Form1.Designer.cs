@@ -30,138 +30,226 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(form1));
-            this.button1 = new System.Windows.Forms.Button();
-            this.comboBox1 = new System.Windows.Forms.ComboBox();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button3 = new System.Windows.Forms.Button();
-            this.button4 = new System.Windows.Forms.Button();
-            this.zaladujFilm = new System.Windows.Forms.Button();
+            this.playVideo = new System.Windows.Forms.Button();
+            this.listOfSigns = new System.Windows.Forms.ComboBox();
+            this.addSign = new System.Windows.Forms.Button();
+            this.deleteSign = new System.Windows.Forms.Button();
+            this.stopVideo = new System.Windows.Forms.Button();
+            this.loadVideo = new System.Windows.Forms.Button();
             this.videoSourcePlayer1 = new AForge.Controls.VideoSourcePlayer();
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
+            this.addText = new System.Windows.Forms.Button();
+            this.deleteText = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.loadText = new System.Windows.Forms.Button();
+            this.tableLayoutPanel1 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel2 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel3 = new System.Windows.Forms.TableLayoutPanel();
+            this.label1 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.tableLayoutPanel1.SuspendLayout();
+            this.tableLayoutPanel2.SuspendLayout();
+            this.tableLayoutPanel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.tableLayoutPanel4.SuspendLayout();
             this.SuspendLayout();
             // 
-            // button1
+            // playVideo
             // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            this.button1.Click += new System.EventHandler(this.button1_Click);
+            this.playVideo.BackColor = System.Drawing.Color.Salmon;
+            this.playVideo.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.playVideo, "playVideo");
+            this.playVideo.Name = "playVideo";
+            this.playVideo.UseVisualStyleBackColor = false;
+            this.playVideo.Click += new System.EventHandler(this.playVideo_Click);
             // 
-            // comboBox1
+            // listOfSigns
             // 
-            this.comboBox1.FormattingEnabled = true;
-            this.comboBox1.Items.AddRange(new object[] {
-            resources.GetString("comboBox1.Items"),
-            resources.GetString("comboBox1.Items1"),
-            resources.GetString("comboBox1.Items2"),
-            resources.GetString("comboBox1.Items3")});
-            resources.ApplyResources(this.comboBox1, "comboBox1");
-            this.comboBox1.Name = "comboBox1";
-            this.comboBox1.SelectionChangeCommitted += new System.EventHandler(this.comboBox1_SelectionChangeCommitted);
+            this.listOfSigns.BackColor = System.Drawing.Color.Beige;
+            this.listOfSigns.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.listOfSigns, "listOfSigns");
+            this.listOfSigns.FormattingEnabled = true;
+            this.listOfSigns.Items.AddRange(new object[] {
+            resources.GetString("listOfSigns.Items"),
+            resources.GetString("listOfSigns.Items1"),
+            resources.GetString("listOfSigns.Items2"),
+            resources.GetString("listOfSigns.Items3")});
+            this.listOfSigns.Name = "listOfSigns";
+            this.listOfSigns.SelectionChangeCommitted += new System.EventHandler(this.listOfSigns_SelectionChangeCommitted);
             // 
-            // button2
+            // addSign
             // 
-            resources.ApplyResources(this.button2, "button2");
-            this.button2.Name = "button2";
-            this.button2.UseVisualStyleBackColor = true;
-            this.button2.Click += new System.EventHandler(this.button2_Click);
+            this.addSign.BackColor = System.Drawing.Color.Salmon;
+            this.addSign.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.addSign, "addSign");
+            this.addSign.Name = "addSign";
+            this.addSign.UseVisualStyleBackColor = false;
+            this.addSign.Click += new System.EventHandler(this.addSign_Click);
             // 
-            // button3
+            // deleteSign
             // 
-            resources.ApplyResources(this.button3, "button3");
-            this.button3.Name = "button3";
-            this.button3.UseVisualStyleBackColor = true;
-            this.button3.Click += new System.EventHandler(this.button3_Click);
+            this.deleteSign.BackColor = System.Drawing.Color.Salmon;
+            this.deleteSign.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.deleteSign, "deleteSign");
+            this.deleteSign.Name = "deleteSign";
+            this.deleteSign.UseVisualStyleBackColor = false;
+            this.deleteSign.Click += new System.EventHandler(this.deleteSign_Click);
             // 
-            // button4
+            // stopVideo
             // 
-            resources.ApplyResources(this.button4, "button4");
-            this.button4.Name = "button4";
-            this.button4.UseVisualStyleBackColor = true;
-            this.button4.Click += new System.EventHandler(this.button4_Click);
+            this.stopVideo.BackColor = System.Drawing.Color.Salmon;
+            this.stopVideo.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.stopVideo, "stopVideo");
+            this.stopVideo.Name = "stopVideo";
+            this.stopVideo.UseVisualStyleBackColor = false;
+            this.stopVideo.Click += new System.EventHandler(this.stopVideo_Click);
             // 
-            // zaladujFilm
+            // loadVideo
             // 
-            resources.ApplyResources(this.zaladujFilm, "zaladujFilm");
-            this.zaladujFilm.Name = "zaladujFilm";
-            this.zaladujFilm.UseVisualStyleBackColor = true;
-            this.zaladujFilm.Click += new System.EventHandler(this.button5_Click);
+            this.loadVideo.BackColor = System.Drawing.Color.Salmon;
+            this.loadVideo.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.loadVideo.DialogResult = System.Windows.Forms.DialogResult.OK;
+            resources.ApplyResources(this.loadVideo, "loadVideo");
+            this.loadVideo.ForeColor = System.Drawing.Color.Black;
+            this.loadVideo.Name = "loadVideo";
+            this.loadVideo.UseVisualStyleBackColor = false;
+            this.loadVideo.Click += new System.EventHandler(this.loadVideo_Click);
             // 
             // videoSourcePlayer1
             // 
+            this.videoSourcePlayer1.BackColor = System.Drawing.Color.MistyRose;
             resources.ApplyResources(this.videoSourcePlayer1, "videoSourcePlayer1");
             this.videoSourcePlayer1.Name = "videoSourcePlayer1";
             this.videoSourcePlayer1.VideoSource = null;
             // 
-            // textBox1
+            // addText
             // 
-            resources.ApplyResources(this.textBox1, "textBox1");
-            this.textBox1.Name = "textBox1";
+            this.addText.BackColor = System.Drawing.Color.Salmon;
+            this.addText.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.addText, "addText");
+            this.addText.Name = "addText";
+            this.addText.UseVisualStyleBackColor = false;
+            this.addText.Click += new System.EventHandler(this.addText_Click);
             // 
-            // button6
+            // deleteText
             // 
-            resources.ApplyResources(this.button6, "button6");
-            this.button6.Name = "button6";
-            this.button6.UseVisualStyleBackColor = true;
-            this.button6.Click += new System.EventHandler(this.button6_Click);
-            // 
-            // button7
-            // 
-            resources.ApplyResources(this.button7, "button7");
-            this.button7.Name = "button7";
-            this.button7.UseVisualStyleBackColor = true;
-            this.button7.Click += new System.EventHandler(this.button7_Click);
+            this.deleteText.BackColor = System.Drawing.Color.Salmon;
+            this.deleteText.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.deleteText, "deleteText");
+            this.deleteText.Name = "deleteText";
+            this.deleteText.UseVisualStyleBackColor = false;
+            this.deleteText.Click += new System.EventHandler(this.deleteText_Click);
             // 
             // timer1
             // 
             this.timer1.Enabled = true;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
+            // loadText
+            // 
+            this.loadText.BackColor = System.Drawing.Color.Salmon;
+            this.loadText.Cursor = System.Windows.Forms.Cursors.Hand;
+            resources.ApplyResources(this.loadText, "loadText");
+            this.loadText.Name = "loadText";
+            this.loadText.UseVisualStyleBackColor = false;
+            this.loadText.Click += new System.EventHandler(this.loadText_Click_1);
+            // 
+            // tableLayoutPanel1
+            // 
+            this.tableLayoutPanel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            resources.ApplyResources(this.tableLayoutPanel1, "tableLayoutPanel1");
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel2, 1, 1);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel3, 0, 0);
+            this.tableLayoutPanel1.Controls.Add(this.tableLayoutPanel4, 0, 1);
+            this.tableLayoutPanel1.Name = "tableLayoutPanel1";
+            // 
+            // tableLayoutPanel2
+            // 
+            resources.ApplyResources(this.tableLayoutPanel2, "tableLayoutPanel2");
+            this.tableLayoutPanel2.Controls.Add(this.loadVideo, 0, 0);
+            this.tableLayoutPanel2.Controls.Add(this.deleteText, 0, 8);
+            this.tableLayoutPanel2.Controls.Add(this.loadText, 0, 6);
+            this.tableLayoutPanel2.Controls.Add(this.addText, 0, 7);
+            this.tableLayoutPanel2.Controls.Add(this.playVideo, 0, 1);
+            this.tableLayoutPanel2.Controls.Add(this.stopVideo, 0, 2);
+            this.tableLayoutPanel2.Controls.Add(this.listOfSigns, 0, 3);
+            this.tableLayoutPanel2.Controls.Add(this.deleteSign, 0, 5);
+            this.tableLayoutPanel2.Controls.Add(this.addSign, 0, 4);
+            this.tableLayoutPanel2.Name = "tableLayoutPanel2";
+            // 
+            // tableLayoutPanel3
+            // 
+            this.tableLayoutPanel3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            resources.ApplyResources(this.tableLayoutPanel3, "tableLayoutPanel3");
+            this.tableLayoutPanel3.Controls.Add(this.label1, 0, 0);
+            this.tableLayoutPanel3.Controls.Add(this.label3, 2, 0);
+            this.tableLayoutPanel3.Controls.Add(this.pictureBox1, 1, 0);
+            this.tableLayoutPanel3.Name = "tableLayoutPanel3";
+            // 
+            // label1
+            // 
+            resources.ApplyResources(this.label1, "label1");
+            this.label1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label1.ForeColor = System.Drawing.Color.Salmon;
+            this.label1.Name = "label1";
+            // 
+            // label3
+            // 
+            resources.ApplyResources(this.label3, "label3");
+            this.label3.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(64)))), ((int)(((byte)(64)))));
+            this.label3.ForeColor = System.Drawing.Color.Salmon;
+            this.label3.Name = "label3";
+            // 
             // pictureBox1
             // 
             resources.ApplyResources(this.pictureBox1, "pictureBox1");
+            this.pictureBox1.Image = global::Appv2.Properties.Resources.zom;
             this.pictureBox1.Name = "pictureBox1";
             this.pictureBox1.TabStop = false;
+            // 
+            // tableLayoutPanel4
+            // 
+            resources.ApplyResources(this.tableLayoutPanel4, "tableLayoutPanel4");
+            this.tableLayoutPanel4.Controls.Add(this.videoSourcePlayer1, 1, 0);
+            this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             // 
             // form1
             // 
             resources.ApplyResources(this, "$this");
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button6);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.videoSourcePlayer1);
-            this.Controls.Add(this.button3);
-            this.Controls.Add(this.zaladujFilm);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button4);
-            this.Controls.Add(this.comboBox1);
-            this.Controls.Add(this.button1);
+            this.Controls.Add(this.tableLayoutPanel1);
             this.Name = "form1";
+            this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+            this.Load += new System.EventHandler(this.form1_Load);
+            this.tableLayoutPanel1.ResumeLayout(false);
+            this.tableLayoutPanel2.ResumeLayout(false);
+            this.tableLayoutPanel3.ResumeLayout(false);
+            this.tableLayoutPanel3.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.tableLayoutPanel4.ResumeLayout(false);
             this.ResumeLayout(false);
-            this.PerformLayout();
 
         }
 
         #endregion
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.ComboBox comboBox1;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button3;
-        private System.Windows.Forms.Button button4;
-        private System.Windows.Forms.Button zaladujFilm;
+        private System.Windows.Forms.Button playVideo;
+        private System.Windows.Forms.ComboBox listOfSigns;
+        private System.Windows.Forms.Button addSign;
+        private System.Windows.Forms.Button deleteSign;
+        private System.Windows.Forms.Button stopVideo;
+        private System.Windows.Forms.Button loadVideo;
         private AForge.Controls.VideoSourcePlayer videoSourcePlayer1;
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button7;
+        private System.Windows.Forms.Button addText;
+        private System.Windows.Forms.Button deleteText;
         private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button loadText;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel1;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel2;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel4;
+        private System.Windows.Forms.TableLayoutPanel tableLayoutPanel3;
+        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
     }
 }
