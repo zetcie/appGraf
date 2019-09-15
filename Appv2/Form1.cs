@@ -133,7 +133,7 @@ namespace Appv2
                 }
                 catch(InvalidOperationException)
                 {
-                    MessageBox.Show("Nie usunieto znaku wodnego.");
+                    MessageBox.Show("Nie usunieto znaku wodnego w poprzednim filmie. Zakoncz dzialaie programu.");
                 }
             }
             return bmp;
@@ -224,36 +224,32 @@ namespace Appv2
         //ladowanie tekstu z pliku
         private void loadText_Click_1(object sender, EventArgs e)
         {
+                OpenFileDialog openFileDialog2 = new OpenFileDialog();
+                openFileDialog2.InitialDirectory = "c:\\";
+                openFileDialog2.CheckFileExists = true;
+                openFileDialog2.CheckPathExists = true;
+                openFileDialog2.DefaultExt = "txt";
+                openFileDialog2.Filter = "txt files (*.txt)|*.txt";
+                openFileDialog2.FilterIndex = 2;
+                openFileDialog2.RestoreDirectory = true;
 
-            OpenFileDialog openFileDialog2 = new OpenFileDialog();
-            openFileDialog2.InitialDirectory = "c:\\";
-            openFileDialog2.CheckFileExists = true;
-            openFileDialog2.CheckPathExists = true;
-            openFileDialog2.DefaultExt = "txt";
-            openFileDialog2.Filter = "txt files (*.txt)|*.txt";
-            openFileDialog2.FilterIndex = 2;
-            openFileDialog2.RestoreDirectory = true;
-
-            if (openFileDialog2.ShowDialog() == DialogResult.OK)
-            {
-                StreamReader sr = new StreamReader(openFileDialog2.FileName);
-                while (text != null)
+                if (openFileDialog2.ShowDialog() == DialogResult.OK)
                 {
-                    text = sr.ReadLine();
-                    if (text != null)
+                    StreamReader sr = new StreamReader(openFileDialog2.FileName);
+                    while (text != null)
                     {
-                        text2.Add(text);
+                        text = sr.ReadLine();
+                        if (text != null)
+                        {
+                            text2.Add(text);
+                        }
                     }
+                    sr.Close();
+                    videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame2);
+                    videoSourcePlayer1.VideoSource = videoSource;
                 }
-                sr.Close();
-                videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame2);
-                videoSourcePlayer1.VideoSource = videoSource;
-            }
 
         }
 
-        private void Button1_Click(object sender, EventArgs e)
-        {
-        }
     }
 }
