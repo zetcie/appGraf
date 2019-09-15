@@ -28,7 +28,7 @@ namespace Appv2
             InitializeComponent();
         }
 
-        //ładowanie
+        //ładowanie filmu
         public void loadVideo_Click(object sender, EventArgs e)
         {
             try
@@ -47,10 +47,7 @@ namespace Appv2
                     videoSource = new FileVideoSource(openFileDialog.FileName);
                     videoSource.Start();
                     videoSourcePlayer1.VideoSource = videoSource;
-                    //videoSourcePlayer1.Width = ClientSize.Width ;// 780;//skalowanie
-                    //videoSourcePlayer1.Height = ClientSize.Height;// 370;
-                    pos2Y = ClientSize.Height;
-
+                    pos2Y = videoSourcePlayer1.Height / 2;
                 }
             }
             catch (FileLoadException)
@@ -85,28 +82,27 @@ namespace Appv2
             }
         }
 
-
+        //tworzenie nowej ramki dla znaku wodnego
         public void video_NewFrame(object sender, NewFrameEventArgs eventArgs)
         {
             Bitmap bitmap = eventArgs.Frame;
             Graphics graphics = Graphics.FromImage(bitmap);
-            graphics.DrawImage(SetImageOpacity(zmienna, 0.5f), ulCorner); //znak wodny
+            graphics.DrawImage(SetImageOpacity(zmienna, 0.5f), ulCorner);
         }
 
+        //tworzenie nowej ramki dla napisu
         public void video_NewFrame2(object sender, NewFrameEventArgs eventArgs)
         {
             Bitmap bitmap = eventArgs.Frame;
             Graphics graphics = Graphics.FromImage(bitmap);
-            SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(128, 255, 255, 255));
+            SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(255, 255, 255, 255));
             Font f = new Font(FontFamily.GenericSerif, 40.0f, FontStyle.Bold);
-            graphics.DrawString(String.Join(" ", text2), f, alphaBrush, pos2X, pos2Y);//napis z pliku
+            graphics.DrawString(String.Join(" ", text2), f, alphaBrush, pos2X, pos2Y);
         }
 
-        //latanie tekstu
+        //poruszanie się tekstu
         private void timer1_Tick(object sender, EventArgs e)
         {
-
-
             posX += 20;
             pos2X -= 20;
 
@@ -135,6 +131,7 @@ namespace Appv2
             return bmp;
         }
 
+        //wybor znaku wodnego z comboBoxu
         public void listOfSigns_SelectionChangeCommitted(object sender, EventArgs e)
         {
 
@@ -177,7 +174,6 @@ namespace Appv2
         //usuniecie znaku wodnego
         private void deleteSign_Click(object sender, EventArgs e)
         {
-
             if (videoSource.IsRunning)
             {
                 videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame);
@@ -217,6 +213,7 @@ namespace Appv2
             }
         }
 
+        //ladowanie tekstu z pliku
         private void loadText_Click_1(object sender, EventArgs e)
         {
             OpenFileDialog openFileDialog2 = new OpenFileDialog();
@@ -237,8 +234,6 @@ namespace Appv2
                     if (text != null)
                     {
                         text2.Add(text);
-
-                        
                     }
                 }
                 sr.Close();
@@ -246,11 +241,5 @@ namespace Appv2
                 videoSourcePlayer1.VideoSource = videoSource;
             }
         }
-
-        private void form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
     }
 }

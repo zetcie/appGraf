@@ -129,13 +129,13 @@
     <value>NoControl</value>
   </data>
   <data name="playVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 44</value>
+    <value>2, 36</value>
   </data>
   <data name="playVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="playVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 38</value>
+    <value>165, 30</value>
   </data>
   <assembly alias="mscorlib" name="mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
   <data name="playVideo.TabIndex" type="System.Int32, mscorlib">
@@ -172,13 +172,13 @@
     <value>Dla pełnoletnich</value>
   </data>
   <data name="listOfSigns.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 128</value>
+    <value>2, 104</value>
   </data>
   <data name="listOfSigns.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="listOfSigns.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 24</value>
+    <value>165, 21</value>
   </data>
   <data name="listOfSigns.TabIndex" type="System.Int32, mscorlib">
     <value>7</value>
@@ -205,13 +205,10 @@
     <value>NoControl</value>
   </data>
   <data name="addSign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 158</value>
-  </data>
-  <data name="addSign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 128</value>
   </data>
   <data name="addSign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 34</value>
+    <value>163, 28</value>
   </data>
   <data name="addSign.TabIndex" type="System.Int32, mscorlib">
     <value>8</value>
@@ -241,13 +238,10 @@
     <value>NoControl</value>
   </data>
   <data name="deleteSign.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 200</value>
-  </data>
-  <data name="deleteSign.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 162</value>
   </data>
   <data name="deleteSign.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 34</value>
+    <value>163, 28</value>
   </data>
   <data name="deleteSign.TabIndex" type="System.Int32, mscorlib">
     <value>9</value>
@@ -277,13 +271,10 @@
     <value>NoControl</value>
   </data>
   <data name="stopVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 88</value>
-  </data>
-  <data name="stopVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 71</value>
   </data>
   <data name="stopVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 34</value>
+    <value>163, 28</value>
   </data>
   <data name="stopVideo.TabIndex" type="System.Int32, mscorlib">
     <value>10</value>
@@ -313,13 +304,10 @@
     <value>NoControl</value>
   </data>
   <data name="loadVideo.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 4</value>
-  </data>
-  <data name="loadVideo.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 3</value>
   </data>
   <data name="loadVideo.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 34</value>
+    <value>163, 28</value>
   </data>
   <data name="loadVideo.TabIndex" type="System.Int32, mscorlib">
     <value>11</value>
@@ -343,13 +331,13 @@
     <value>Fill</value>
   </data>
   <data name="videoSourcePlayer1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 2</value>
+    <value>17, 2</value>
   </data>
   <data name="videoSourcePlayer1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="videoSourcePlayer1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>989, 405</value>
+    <value>744, 334</value>
   </data>
   <data name="videoSourcePlayer1.TabIndex" type="System.Int32, mscorlib">
     <value>0</value>
@@ -379,13 +367,10 @@
     <value>NoControl</value>
   </data>
   <data name="addText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 284</value>
-  </data>
-  <data name="addText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 230</value>
   </data>
   <data name="addText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 34</value>
+    <value>163, 28</value>
   </data>
   <data name="addText.TabIndex" type="System.Int32, mscorlib">
     <value>13</value>
@@ -415,13 +400,10 @@
     <value>NoControl</value>
   </data>
   <data name="deleteText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>4, 326</value>
-  </data>
-  <data name="deleteText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>4, 4, 4, 4</value>
+    <value>3, 264</value>
   </data>
   <data name="deleteText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>217, 34</value>
+    <value>163, 28</value>
   </data>
   <data name="deleteText.TabIndex" type="System.Int32, mscorlib">
     <value>14</value>
@@ -454,10 +436,13 @@
     <value>NoControl</value>
   </data>
   <data name="loadText.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 241</value>
+    <value>2, 195</value>
+  </data>
+  <data name="loadText.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="loadText.Size" type="System.Drawing.Size, System.Drawing">
-    <value>219, 36</value>
+    <value>165, 30</value>
   </data>
   <data name="loadText.TabIndex" type="System.Int32, mscorlib">
     <value>16</value>
@@ -487,13 +472,16 @@
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel2.Location" type="System.Drawing.Point, System.Drawing">
-    <value>1024, 105</value>
+    <value>769, 86</value>
+  </data>
+  <data name="tableLayoutPanel2.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="tableLayoutPanel2.RowCount" type="System.Int32, mscorlib">
     <value>10</value>
   </data>
   <data name="tableLayoutPanel2.Size" type="System.Drawing.Size, System.Drawing">
-    <value>250, 409</value>
+    <value>188, 338</value>
   </data>
   <data name="tableLayoutPanel2.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -523,16 +511,19 @@
     <value>Fill</value>
   </data>
   <data name="label1.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tempus Sans ITC, 36pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 36pt, style=Bold</value>
   </data>
   <data name="label1.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 0</value>
+    <value>2, 0</value>
+  </data>
+  <data name="label1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="label1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>14, 96</value>
+    <value>11, 80</value>
   </data>
   <data name="label1.TabIndex" type="System.Int32, mscorlib">
     <value>1</value>
@@ -562,16 +553,19 @@
     <value>Fill</value>
   </data>
   <data name="label3.Font" type="System.Drawing.Font, System.Drawing">
-    <value>Tempus Sans ITC, 36pt, style=Bold</value>
+    <value>Microsoft Sans Serif, 36pt, style=Bold</value>
   </data>
   <data name="label3.ImeMode" type="System.Windows.Forms.ImeMode, System.Windows.Forms">
     <value>NoControl</value>
   </data>
   <data name="label3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>175, 0</value>
+    <value>131, 0</value>
+  </data>
+  <data name="label3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 0, 2, 0</value>
   </data>
   <data name="label3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>837, 96</value>
+    <value>630, 80</value>
   </data>
   <data name="label3.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -598,10 +592,13 @@
     <value>Fill</value>
   </data>
   <data name="pictureBox1.Location" type="System.Drawing.Point, System.Drawing">
-    <value>23, 3</value>
+    <value>17, 2</value>
+  </data>
+  <data name="pictureBox1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="pictureBox1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>146, 90</value>
+    <value>110, 76</value>
   </data>
   <data name="pictureBox1.SizeMode" type="System.Windows.Forms.PictureBoxSizeMode, System.Windows.Forms">
     <value>Zoom</value>
@@ -625,13 +622,16 @@
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel3.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 3</value>
+    <value>2, 2</value>
+  </data>
+  <data name="tableLayoutPanel3.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="tableLayoutPanel3.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel3.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1015, 96</value>
+    <value>763, 80</value>
   </data>
   <data name="tableLayoutPanel3.TabIndex" type="System.Int32, mscorlib">
     <value>2</value>
@@ -658,13 +658,16 @@
     <value>Fill</value>
   </data>
   <data name="tableLayoutPanel4.Location" type="System.Drawing.Point, System.Drawing">
-    <value>3, 105</value>
+    <value>2, 86</value>
+  </data>
+  <data name="tableLayoutPanel4.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="tableLayoutPanel4.RowCount" type="System.Int32, mscorlib">
     <value>1</value>
   </data>
   <data name="tableLayoutPanel4.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1015, 409</value>
+    <value>763, 338</value>
   </data>
   <data name="tableLayoutPanel4.TabIndex" type="System.Int32, mscorlib">
     <value>3</value>
@@ -690,11 +693,14 @@
   <data name="tableLayoutPanel1.Location" type="System.Drawing.Point, System.Drawing">
     <value>0, 0</value>
   </data>
+  <data name="tableLayoutPanel1.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
+    <value>2, 2, 2, 2</value>
+  </data>
   <data name="tableLayoutPanel1.RowCount" type="System.Int32, mscorlib">
     <value>3</value>
   </data>
   <data name="tableLayoutPanel1.Size" type="System.Drawing.Size, System.Drawing">
-    <value>1277, 529</value>
+    <value>959, 436</value>
   </data>
   <data name="tableLayoutPanel1.TabIndex" type="System.Int32, mscorlib">
     <value>17</value>
@@ -712,7 +718,7 @@
     <value>0</value>
   </data>
   <data name="tableLayoutPanel1.LayoutSettings" type="System.Windows.Forms.TableLayoutSettings, System.Windows.Forms">
-    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,80,Percent,20" /&gt;&lt;Rows Styles="Percent,19,31627,Percent,78,48601,Percent,2,197725,Absolute,20" /&gt;&lt;/TableLayoutSettings&gt;</value>
+    <value>&lt;?xml version="1.0" encoding="utf-16"?&gt;&lt;TableLayoutSettings&gt;&lt;Controls&gt;&lt;Control Name="tableLayoutPanel2" Row="1" RowSpan="1" Column="1" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel3" Row="0" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;Control Name="tableLayoutPanel4" Row="1" RowSpan="1" Column="0" ColumnSpan="1" /&gt;&lt;/Controls&gt;&lt;Columns Styles="Percent,80,Percent,20" /&gt;&lt;Rows Styles="Percent,19,31627,Percent,78,48601,Percent,2,197725,Absolute,16" /&gt;&lt;/TableLayoutSettings&gt;</value>
   </data>
   <metadata name="$this.Localizable" type="System.Boolean, mscorlib, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089">
     <value>True</value>
@@ -724,7 +730,7 @@
     <value>37</value>
   </metadata>
   <data name="$this.AutoScaleDimensions" type="System.Drawing.SizeF, System.Drawing">
-    <value>8, 16</value>
+    <value>6, 13</value>
   </data>
   <data name="$this.AutoSize" type="System.Boolean, mscorlib">
     <value>True</value>
@@ -733,16 +739,16 @@
     <value>GrowAndShrink</value>
   </data>
   <data name="$this.ClientSize" type="System.Drawing.Size, System.Drawing">
-    <value>1277, 529</value>
+    <value>959, 436</value>
   </data>
   <data name="$this.Margin" type="System.Windows.Forms.Padding, System.Windows.Forms">
-    <value>3, 2, 3, 2</value>
+    <value>2, 2, 2, 2</value>
   </data>
   <data name="$this.MaximumSize" type="System.Drawing.Size, System.Drawing">
-    <value>2295, 1076</value>
+    <value>1725, 882</value>
   </data>
   <data name="$this.MinimumSize" type="System.Drawing.Size, System.Drawing">
-    <value>1295, 576</value>
+    <value>975, 475</value>
   </data>
   <data name="$this.Text" xml:space="preserve">
     <value>najlepsza apka</value>

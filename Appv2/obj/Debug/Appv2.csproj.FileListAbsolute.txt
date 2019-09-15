@@ -73,3 +73,24 @@ C:\Users\Nati\Desktop\Nowy folder\appGraf\Appv2\obj\Debug\Appv2.Properties.Resou
 C:\Users\Nati\Desktop\Nowy folder\appGraf\Appv2\obj\Debug\Appv2.csproj.GenerateResource.cache
 C:\Users\Nati\Desktop\Nowy folder\appGraf\Appv2\obj\Debug\Appv2.csproj.CoreCompileInputs.cache
 C:\Users\Nati\Desktop\Nowy folder\appGraf\Appv2\obj\Debug\Appv2.csproj.CopyComplete
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\Appv2.exe.config
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\Appv2.exe
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\Appv2.pdb
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.dll
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Math.dll
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Controls.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Imaging.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Imaging.Formats.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Video.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Video.DirectShow.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Video.FFMPEG.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\bin\Debug\AForge.Math.xml
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.csprojAssemblyReference.cache
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.form1.resources
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.Properties.Resources.resources
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.csproj.GenerateResource.cache
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.csproj.CoreCompileInputs.cache
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.csproj.CopyComplete
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.exe
+C:\Users\Nati\Desktop\git\appGraf\Appv2\obj\Debug\Appv2.pdb
