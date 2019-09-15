@@ -19,9 +19,8 @@ namespace Appv2
         int posX = 0;
         int pos2X = 0;
         float pos2Y = 0;
-
         string text = "";
-        List<string> text2 = new List<string>();
+        List<string> text2;
 
         public form1()
         {
@@ -41,7 +40,7 @@ namespace Appv2
                 openFileDialog.Filter = "avi files (*.avi)|*.avi";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
-               
+
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     videoSource = new FileVideoSource(openFileDialog.FileName);
@@ -54,7 +53,6 @@ namespace Appv2
             {
                 MessageBox.Show("Nie załadowano filmu.");
             }
-
         }
 
         //start filmu
@@ -96,7 +94,7 @@ namespace Appv2
             Bitmap bitmap = eventArgs.Frame;
             Graphics graphics = Graphics.FromImage(bitmap);
             SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(255, 255, 255, 255));
-            Font f = new Font(FontFamily.GenericSerif, 40.0f, FontStyle.Bold);
+            Font f = new Font(FontFamily.GenericSerif, 30.0f, FontStyle.Bold);
             graphics.DrawString(String.Join(" ", text2), f, alphaBrush, pos2X, pos2Y);
 
         }
@@ -131,7 +129,7 @@ namespace Appv2
                 {
                     gfx.DrawImage(image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, attributes);
                 }
-                catch(InvalidOperationException)
+                catch (InvalidOperationException)
                 {
                     MessageBox.Show("Nie usunieto znaku wodnego w poprzednim filmie. Zakoncz dzialaie programu.");
                 }
@@ -192,7 +190,7 @@ namespace Appv2
                 MessageBox.Show("Nie załadowano filmu.");
             }
         }
-        
+
         //dodanie napisu
         private void addText_Click(object sender, EventArgs e)
         {
@@ -214,6 +212,7 @@ namespace Appv2
             {
                 videoSource.NewFrame -= new NewFrameEventHandler(video_NewFrame2);
                 videoSourcePlayer1.VideoSource = videoSource;
+
             }
             else
             {
@@ -224,6 +223,8 @@ namespace Appv2
         //ladowanie tekstu z pliku
         private void loadText_Click_1(object sender, EventArgs e)
         {
+            if (videoSource.IsRunning)
+            {
                 OpenFileDialog openFileDialog2 = new OpenFileDialog();
                 openFileDialog2.InitialDirectory = "c:\\";
                 openFileDialog2.CheckFileExists = true;
@@ -236,9 +237,9 @@ namespace Appv2
                 if (openFileDialog2.ShowDialog() == DialogResult.OK)
                 {
                     StreamReader sr = new StreamReader(openFileDialog2.FileName);
-                    while (text != null)
+                    text2 = new List<string>();
+                    while ((text = sr.ReadLine()) != null)
                     {
-                        text = sr.ReadLine();
                         if (text != null)
                         {
                             text2.Add(text);
@@ -248,7 +249,8 @@ namespace Appv2
                     videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame2);
                     videoSourcePlayer1.VideoSource = videoSource;
                 }
-
+            }
+            else{ MessageBox.Show("Nie załadowano filmu."); }
         }
 
     }
