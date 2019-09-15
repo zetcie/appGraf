@@ -48,6 +48,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.tableLayoutPanel4 = new System.Windows.Forms.TableLayoutPanel();
+            this.button1 = new System.Windows.Forms.Button();
             this.tableLayoutPanel1.SuspendLayout();
             this.tableLayoutPanel2.SuspendLayout();
             this.tableLayoutPanel3.SuspendLayout();
@@ -176,6 +177,7 @@
             this.tableLayoutPanel2.Controls.Add(this.listOfSigns, 0, 3);
             this.tableLayoutPanel2.Controls.Add(this.deleteSign, 0, 5);
             this.tableLayoutPanel2.Controls.Add(this.addSign, 0, 4);
+            this.tableLayoutPanel2.Controls.Add(this.button1, 0, 9);
             this.tableLayoutPanel2.Name = "tableLayoutPanel2";
             // 
             // tableLayoutPanel3
@@ -214,6 +216,13 @@
             this.tableLayoutPanel4.Controls.Add(this.videoSourcePlayer1, 1, 0);
             this.tableLayoutPanel4.Name = "tableLayoutPanel4";
             // 
+            // button1
+            // 
+            resources.ApplyResources(this.button1, "button1");
+            this.button1.Name = "button1";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.Button1_Click);
+            // 
             // form1
             // 
             resources.ApplyResources(this, "$this");
@@ -250,6 +259,7 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.PictureBox pictureBox1;
+        private System.Windows.Forms.Button button1;
     }
 }
 

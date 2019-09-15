@@ -41,7 +41,7 @@ namespace Appv2
                 openFileDialog.Filter = "avi files (*.avi)|*.avi";
                 openFileDialog.FilterIndex = 2;
                 openFileDialog.RestoreDirectory = true;
-
+               
                 if (openFileDialog.ShowDialog() == DialogResult.OK)
                 {
                     videoSource = new FileVideoSource(openFileDialog.FileName);
@@ -98,6 +98,7 @@ namespace Appv2
             SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(255, 255, 255, 255));
             Font f = new Font(FontFamily.GenericSerif, 40.0f, FontStyle.Bold);
             graphics.DrawString(String.Join(" ", text2), f, alphaBrush, pos2X, pos2Y);
+
         }
 
         //poruszanie się tekstu
@@ -126,7 +127,14 @@ namespace Appv2
 
                 attributes.SetColorMatrix(matrix, ColorMatrixFlag.Default, ColorAdjustType.Bitmap);
 
-                gfx.DrawImage(image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, attributes);
+                try
+                {
+                    gfx.DrawImage(image, new Rectangle(0, 0, bmp.Width, bmp.Height), 0, 0, image.Width, image.Height, GraphicsUnit.Pixel, attributes);
+                }
+                catch(InvalidOperationException)
+                {
+                    MessageBox.Show("Nie usunieto znaku wodnego.");
+                }
             }
             return bmp;
         }
@@ -216,6 +224,7 @@ namespace Appv2
         //ladowanie tekstu z pliku
         private void loadText_Click_1(object sender, EventArgs e)
         {
+
             OpenFileDialog openFileDialog2 = new OpenFileDialog();
             openFileDialog2.InitialDirectory = "c:\\";
             openFileDialog2.CheckFileExists = true;
@@ -240,6 +249,11 @@ namespace Appv2
                 videoSource.NewFrame += new NewFrameEventHandler(video_NewFrame2);
                 videoSourcePlayer1.VideoSource = videoSource;
             }
+
+        }
+
+        private void Button1_Click(object sender, EventArgs e)
+        {
         }
     }
 }
