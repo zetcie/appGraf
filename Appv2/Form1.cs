@@ -95,7 +95,14 @@ namespace Appv2
             Graphics graphics = Graphics.FromImage(bitmap);
             SolidBrush alphaBrush = new SolidBrush(Color.FromArgb(255, 255, 255, 255));
             Font f = new Font(FontFamily.GenericSerif, 30.0f, FontStyle.Bold);
-            graphics.DrawString(String.Join(" ", text2), f, alphaBrush, pos2X, pos2Y);
+            try
+            {
+                graphics.DrawString(String.Join(" ", text2), f, alphaBrush, pos2X, pos2Y);
+            }
+            catch (InvalidOperationException)
+            {
+                MessageBox.Show("Wystąpił błąd. Zakończ.");
+            }
 
         }
 
